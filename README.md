@@ -23,10 +23,15 @@
 Команды компиляции следующие:
 
 **cargo main.rs build --release**
+
 предыдущая команда + **strip root-backup**
+
 **rustc main.rs -C lto -C opt-level=3**
+
 предыдущая команда + **strip main**
+
 **rustc main.rs -C prefer-dynamic -C opt-level=3**
+
 предыдущая команда + **strip main**
 
 После файлы были переименованы и помещены в соответствующие папки.
